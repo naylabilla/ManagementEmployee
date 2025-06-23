@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EmployeeManagementSystem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
+    <style>
+        body {
+            background-color: #e8e8e8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Apps Result Header - Top Bar */
+        .apps-result-header {
+            background: linear-gradient(135deg, #2C3E50, #2C3E50);
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        /* Main Navigation */
+        .main-nav {
+            background-color: #28a745;
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .logo-section a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .logo-section a:hover {
+            opacity: 0.8;
+            text-decoration: none;
+        }
+
+        .schneider-logo-img {
+            height: 34px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .brand-text {
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+
+        /* Content Container */
+        .content-container {
+            max-width: 1200px;
+            margin: 24px auto;
+            padding: 0 24px;
+        }
+
+        /* Employee Data Card */
+        .employee-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .employee-card-header {
+            background-color: #343a40;
+            color: white;
+            padding: 16px 24px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .employee-card-body {
+            padding: 24px;
+        }
+
+        /* Create Button */
+        .create-btn {
+            background-color: #28a745;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.2s;
+            margin-bottom: 20px;
+        }
+
+        .create-btn:hover {
+            background-color: #218838;
+            color: white;
+        }
+
+        /* Table Styling */
+        .employee-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .employee-table thead {
+            background-color: #28a745;
+        }
+
+        .employee-table th {
+            background-color: #28a745;
+            color: white;
+            padding: 16px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            border: none;
+        }
+
+        .employee-table td {
+            padding: 16px 20px;
+            border-bottom: 1px solid #e9ecef;
+            font-size: 14px;
+            background-color: white;
+        }
+
+        .employee-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .employee-table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        /* Action Buttons */
+        .action-buttons {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+        }
+
+        .btn-edit {
+            background-color: #ffc107;
+            border: none;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .btn-delete {
+            background-color: #dc3545;
+            border: none;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .btn-edit:hover,
+        .btn-delete:hover {
+            opacity: 0.9;
+            color: white;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #6c757d;
+            font-size: 12px;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: #6c757d;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        (max-width: 768px) {
+            .main-nav {
+                flex-direction: column;
+                gap: 16px;
+                align-items: flex-start;
+            }
+
+            .content-container {
+                padding: 0 16px;
+            }
+
+            .employee-table {
+                font-size: 12px;
+            }
+
+            .employee-table th,
+            .employee-table td {
+                padding: 12px 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Apps Result Header -->
+    <div class="apps-result-header">
+        Apps Result
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="logo-section">
+            <span class="brand-text">P1F Apps</span>
+            <a href="#">Home</a>
+            <a href="#">Privacy</a>
+        </div>
+        <div class="nav-links ms-auto d-flex align-items-center gap-3">
+            <img src="~/Images/schneider2.png" alt="Schneider Electric" class="schneider-logo-img" />
+        </div>
+
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content-container">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        © 2025 - EmployeeManagementSystem - <a href="#">Privacy</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

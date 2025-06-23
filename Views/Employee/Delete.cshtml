@@ -1,0 +1,194 @@
+@model EmployeeManagementSystem.Models.Employee
+
+@{
+    ViewData["Title"] = "Delete Employee";
+}
+
+<!-- Delete Employee Card -->
+<div class="employee-card delete-card">
+    <!-- Employee Data Header -->
+    <div class="employee-card-header">
+        Delete Employee
+    </div>
+
+    <!-- Card Body -->
+    <div class="employee-card-body">
+        <div class="delete-content">
+            <!-- Warning Icon -->
+            <div class="warning-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#dc3545" stroke-width="2">
+                    <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+                    <path d="M12 9v4" />
+                    <path d="m12 17 .01 0" />
+                </svg>
+            </div>
+
+            <h3 class="delete-title">Delete this employee?</h3>
+            <p class="delete-subtitle">This action cannot be undone. Are you sure you want to proceed?</p>
+
+            <!-- Employee Details -->
+            <div class="employee-details">
+                <div class="detail-row">
+                    <span class="detail-label">SESA ID:</span>
+                    <span class="detail-value">@Html.DisplayFor(model => model.SesaId)</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Name:</span>
+                    <span class="detail-value">@Html.DisplayFor(model => model.Name)</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Gender:</span>
+                    <span class="detail-value">@Html.DisplayFor(model => model.Gender.Name)</span>
+                </div>
+
+                <div class="detail-row">
+                    <span class="detail-label">Department:</span>
+                    <span class="detail-value">@Html.DisplayFor(model => model.Department.Name)</span>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <form asp-action="Delete" class="delete-form">
+                <input type="hidden" asp-for="Id" />
+                <div class="delete-actions">
+                    <a asp-action="Index" class="btn-cancel-delete">Cancel</a>
+                    <input type="submit" value="Delete Employee" class="btn-delete-confirm" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .delete-card {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .delete-content {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .warning-icon {
+        width: 80px;
+        height: 80px;
+        background-color: rgba(220, 53, 69, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 24px;
+    }
+
+    .delete-title {
+        font-size: 24px;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 8px;
+    }
+
+    .delete-subtitle {
+        font-size: 14px;
+        color: #6c757d;
+        margin-bottom: 32px;
+        line-height: 1.5;
+    }
+
+    .employee-details {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        padding: 24px;
+        margin-bottom: 32px;
+        text-align: left;
+    }
+
+    .detail-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    .detail-row:last-child {
+        border-bottom: none;
+    }
+
+    .detail-label {
+        font-weight: 600;
+        color: #333;
+        font-size: 14px;
+    }
+
+    .detail-value {
+        color: #6c757d;
+        font-size: 14px;
+    }
+
+    .delete-form {
+        margin: 0;
+    }
+
+    .delete-actions {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .btn-delete-confirm {
+        background-color: #dc3545;
+        border: none;
+        color: white;
+        padding: 12px 32px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .btn-delete-confirm:hover {
+        background-color: #c82333;
+    }
+
+    .btn-cancel-delete {
+        background-color: #6c757d;
+        border: none;
+        color: white;
+        padding: 12px 32px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background-color 0.2s;
+    }
+
+    .btn-cancel-delete:hover {
+        background-color: #5a6268;
+        color: white;
+    }
+
+    (max-width: 768px) {
+        .delete-actions {
+            flex-direction: column;
+        }
+
+        .btn-delete-confirm,
+        .btn-cancel-delete {
+            width: 100%;
+        }
+
+        .employee-details {
+            padding: 16px;
+        }
+
+        .detail-row {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+        }
+    }
+</style>

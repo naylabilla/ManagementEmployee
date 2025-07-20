@@ -1,1 +1,96 @@
-{"Version":1,"Hash":"/ncSIiFltiHL8QkdB4niU4OUG7+HXcBTTDCm9O1HgxI=","Source":"EmployeeManagementSystem","BasePath":"_content/EmployeeManagementSystem","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[{"Name":"EmployeeManagementSystem\\wwwroot","Source":"EmployeeManagementSystem","ContentRoot":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\","BasePath":"_content/EmployeeManagementSystem","Pattern":"**"}],"Assets":[{"Identity":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\css\\site.css","SourceId":"EmployeeManagementSystem","SourceType":"Discovered","ContentRoot":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\","BasePath":"_content/EmployeeManagementSystem","RelativePath":"css/site#[.{fingerprint}]?.css","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"ujn2lb0aiv","Integrity":"uqQdzx5e9PEdPEkKidK32ucOnpjmSEN3M/M6Na7gGzE=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\css\\site.css","FileLength":657,"LastWriteTime":"2025-06-22T14:43:37+00:00"},{"Identity":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\Images\\schneider.png","SourceId":"EmployeeManagementSystem","SourceType":"Discovered","ContentRoot":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\","BasePath":"_content/EmployeeManagementSystem","RelativePath":"Images/schneider#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"gpqp2mf15z","Integrity":"jCIfGQQCJmawRuWWePUsl/N3unPstGsHZqnz4CuPyGA=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\Images\\schneider.png","FileLength":33823,"LastWriteTime":"2025-06-22T10:33:08+00:00"},{"Identity":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\Images\\schneider2.png","SourceId":"EmployeeManagementSystem","SourceType":"Discovered","ContentRoot":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\","BasePath":"_content/EmployeeManagementSystem","RelativePath":"Images/schneider2#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"vh01v9ibgd","Integrity":"PSQVyDMsYzH5CMapiXeQ2K/JgnXVNAFrVSA5heLzQMo=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\Images\\schneider2.png","FileLength":34182,"LastWriteTime":"2025-06-23T01:14:21+00:00"},{"Identity":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\js\\site.js","SourceId":"EmployeeManagementSystem","SourceType":"Discovered","ContentRoot":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\","BasePath":"_content/EmployeeManagementSystem","RelativePath":"js/site#[.{fingerprint}]?.js","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"7m23mmqjst","Integrity":"AYK5qVcAbQWIolaO4ueSvR9zavp9v6WnXn0xjAWpam4=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\js\\site.js","FileLength":222,"LastWriteTime":"2025-06-22T14:43:37+00:00"}],"Endpoints":[{"Route":"css/site.css","AssetFile":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\css\\site.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"657"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"uqQdzx5e9PEdPEkKidK32ucOnpjmSEN3M/M6Na7gGzE=\""},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:43:37 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-uqQdzx5e9PEdPEkKidK32ucOnpjmSEN3M/M6Na7gGzE="}]},{"Route":"css/site.ujn2lb0aiv.css","AssetFile":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\css\\site.css","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"657"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\"uqQdzx5e9PEdPEkKidK32ucOnpjmSEN3M/M6Na7gGzE=\""},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:43:37 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"ujn2lb0aiv"},{"Name":"label","Value":"css/site.css"},{"Name":"integrity","Value":"sha256-uqQdzx5e9PEdPEkKidK32ucOnpjmSEN3M/M6Na7gGzE="}]},{"Route":"Images/schneider.gpqp2mf15z.png","AssetFile":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\Images\\schneider.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"33823"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"jCIfGQQCJmawRuWWePUsl/N3unPstGsHZqnz4CuPyGA=\""},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 10:33:08 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"gpqp2mf15z"},{"Name":"label","Value":"Images/schneider.png"},{"Name":"integrity","Value":"sha256-jCIfGQQCJmawRuWWePUsl/N3unPstGsHZqnz4CuPyGA="}]},{"Route":"Images/schneider.png","AssetFile":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\Images\\schneider.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"33823"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"jCIfGQQCJmawRuWWePUsl/N3unPstGsHZqnz4CuPyGA=\""},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 10:33:08 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-jCIfGQQCJmawRuWWePUsl/N3unPstGsHZqnz4CuPyGA="}]},{"Route":"Images/schneider2.png","AssetFile":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\Images\\schneider2.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"34182"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"PSQVyDMsYzH5CMapiXeQ2K/JgnXVNAFrVSA5heLzQMo=\""},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 01:14:21 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-PSQVyDMsYzH5CMapiXeQ2K/JgnXVNAFrVSA5heLzQMo="}]},{"Route":"Images/schneider2.vh01v9ibgd.png","AssetFile":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\Images\\schneider2.png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"34182"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"PSQVyDMsYzH5CMapiXeQ2K/JgnXVNAFrVSA5heLzQMo=\""},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 01:14:21 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"vh01v9ibgd"},{"Name":"label","Value":"Images/schneider2.png"},{"Name":"integrity","Value":"sha256-PSQVyDMsYzH5CMapiXeQ2K/JgnXVNAFrVSA5heLzQMo="}]},{"Route":"js/site.7m23mmqjst.js","AssetFile":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\js\\site.js","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"222"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\"AYK5qVcAbQWIolaO4ueSvR9zavp9v6WnXn0xjAWpam4=\""},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:43:37 GMT"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"}],"EndpointProperties":[{"Name":"fingerprint","Value":"7m23mmqjst"},{"Name":"label","Value":"js/site.js"},{"Name":"integrity","Value":"sha256-AYK5qVcAbQWIolaO4ueSvR9zavp9v6WnXn0xjAWpam4="}]},{"Route":"js/site.js","AssetFile":"C:\\Users\\DELL\\Documents\\EmployeeManagement\\wwwroot\\js\\site.js","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"222"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\"AYK5qVcAbQWIolaO4ueSvR9zavp9v6WnXn0xjAWpam4=\""},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:43:37 GMT"},{"Name":"Cache-Control","Value":"no-cache"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-AYK5qVcAbQWIolaO4ueSvR9zavp9v6WnXn0xjAWpam4="}]}]}
+{
+  "Version": 1,
+  "Hash": "+gBpodYKwretxiT0hUxQ+TcBVyYMOk22zE7RvuqaFQU=",
+  "Source": "EmployeeManagementSystem",
+  "BasePath": "_content/EmployeeManagementSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EmployeeManagementSystem\\wwwroot",
+      "Source": "EmployeeManagementSystem",
+      "ContentRoot": "C:\\xampp\\htdocs\\KULIAH\\ManagementEmployee\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagementSystem",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\xampp\\htdocs\\KULIAH\\ManagementEmployee\\wwwroot\\css\\site.css",
+      "SourceId": "EmployeeManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\xampp\\htdocs\\KULIAH\\ManagementEmployee\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagementSystem",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\xampp\\htdocs\\KULIAH\\ManagementEmployee\\wwwroot\\Images\\schneider.png",
+      "SourceId": "EmployeeManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\xampp\\htdocs\\KULIAH\\ManagementEmployee\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagementSystem",
+      "RelativePath": "Images/schneider.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\schneider.png"
+    },
+    {
+      "Identity": "C:\\xampp\\htdocs\\KULIAH\\ManagementEmployee\\wwwroot\\Images\\schneider2.png",
+      "SourceId": "EmployeeManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\xampp\\htdocs\\KULIAH\\ManagementEmployee\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagementSystem",
+      "RelativePath": "Images/schneider2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\schneider2.png"
+    },
+    {
+      "Identity": "C:\\xampp\\htdocs\\KULIAH\\ManagementEmployee\\wwwroot\\js\\site.js",
+      "SourceId": "EmployeeManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\xampp\\htdocs\\KULIAH\\ManagementEmployee\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagementSystem",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}
